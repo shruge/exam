@@ -1,0 +1,39 @@
+.swiper-wrapper {
+  padding: 0 0.3125rem 0;
+}
+
+.swiper-slide.articles__item {
+  max-width: 350px;
+  transition-property: background-color, transform;
+}
+
+.swiper-slide.feeds__item {
+  max-width: 400px;
+  transition-property: background-color, transform;
+}
+
+.main__description {
+  text-align: center;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.articles {
+  margin: 4.5rem 0 3rem 0;
+}
+
+.articles__image {
+  max-height: 170px;
+}
+
+@media (max-width: 768px) {
+  .main__description {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .articles__item {
+    max-width: 250px;
+  }
+}

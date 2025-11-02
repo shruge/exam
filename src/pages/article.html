@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="https://kit.fontawesome.com/52d2589b60.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/src/assets/css/utils/vars.css" />
+    <link rel="stylesheet" href="/src/assets/css/utils/fonts.css" />
+    <link rel="stylesheet" href="/src/assets/css/utils/reset.css" />
+    <link rel="stylesheet" href="/src/assets/css/utils/common.css" />
+    <style>
+      .articles__item {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="header__nav content-limination">
+        <a href="/"><img src="/logo.webp" alt="logo" class="logo" /></a>
+        <button class="burger" type="button" aria-label="burger button">
+          <span class="burger__line"></span>
+        </button>
+        <ul class="header__links">
+          <li class="header__close-icon">
+            <i class="fa-solid fa-chevron-left"></i>
+          </li>
+          <li class="header__item">
+            <a href="#header" class="header__link header__link--active">Главная</a>
+          </li>
+          <li class="header__item">
+            <a href="/src/pages/articles.html" class="header__link">Статьи</a>
+          </li>
+          <li class="header__item">
+            <a href="" class="header__link">Корма</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <aside class="blur"></aside>
+    <main class="main content-limination"></main>
+    <footer class="footer">
+      <p class="footer__text content-limination">Сайт для кошков</p>
+    </footer>
+    <script src="/src/assets/js/main.js"></script>
+    <script src="/src/assets/js/pages/article.js" type="module"></script>
+  </body>
+</html>

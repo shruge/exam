@@ -4,9 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>exam</title>
-    <script src="https://kit.fontawesome.com/52d2589b60.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/src/assets/css/home.css" />
+    <title>Корма</title>
     <link rel="stylesheet" href="/src/assets/css/utils/vars.css" />
     <link rel="stylesheet" href="/src/assets/css/utils/fonts.css" />
     <link rel="stylesheet" href="/src/assets/css/utils/reset.css" />
@@ -24,43 +22,30 @@
           <li class="header__close-icon">
             <i class="fa-solid fa-chevron-left"></i>
           </li>
-          <li class="header__item header__item--active">
-            <a href="#header" class="header__link">Главная</a>
+          <li class="header__item">
+            <a href="/" class="header__link">Главная</a>
           </li>
           <li class="header__item">
             <a href="/src/pages/articles.html" class="header__link">Статьи</a>
           </li>
-          <li class="header__item">
-            <a href="/src/pages/feeds.html" class="header__link">Корма</a>
+          <li class="header__item header__item--active">
+            <a href="#header" class="header__link">Корма</a>
           </li>
         </ul>
       </nav>
     </header>
     <aside class="blur"></aside>
     <main class="main content-limination">
-      <h1 class="main__title title title--large">Добро пожаловать!</h1>
-      <p class="main__description description description--large">
-        Этот сайт создан для всех любителей кошек. Здесь вы найдёте интересные статьи о кошках, а также также подборку
-        лучших кормов для вашего питомца.
-      </p>
-      <section class="articles">
-        <h2 class="title title--mb title--medium">Статьи, которые можно найти на нашем сайте:</h2>
-        <div class="swiper-articles swiper">
-          <div class="swiper-wrapper"></div>
-        </div>
-      </section>
+      <h1 class="main__title title title--large">Здесь представлена подборка различных кормов</h1>
       <section class="feeds">
         <h2 class="title title--mb title--medium">Наша подборка кормов</h2>
-        <div class="swiper-feeds swiper">
-          <div class="swiper-wrapper"></div>
-        </div>
+        <div class="feeds__list"></div>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__text content-limination">Сайт для кошков</p>
     </footer>
     <script src="/src/assets/js/main.js"></script>
-    <script src="/src/assets/js/pages/home.js" type="module"></script>
-    <script src="/src/assets/js/swiper.js" type="module"></script>
+    <script src="/src/assets/js/pages/feeds.js" type="module"></script>
   </body>
 </html>

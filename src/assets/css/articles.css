@@ -1,0 +1,10 @@
+.articles__list {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.articles__image {
+  min-height: 200px;
+  max-height: 200px;
+}
