@@ -1,0 +1,21 @@
+.feeds__item {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feeds__grid {
+  gap: 1rem 5%;
+  grid-template-columns: 100%;
+}
+
+.feeds__img {
+  margin: 0 auto;
+  min-height: 200px;
+  max-height: 200px;
+}
+
+.feeds__tags-list {
+  flex-wrap: wrap;
+  gap: 1.15rem 0.625rem;
+  justify-content: center;
+}
