@@ -1,4 +1,4 @@
-import swiperInit from '../swiper.js'
+import swiperInit from '../swiperInit.js'
 import { getArticleTemplate, getFeedTemplate } from '../utils/templateGenerators.js'
 import { getArticles } from '../../../api/getArticles.js'
 import { getFeeds } from '../../../api/getFeeds.js'
